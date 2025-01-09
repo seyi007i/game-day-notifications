@@ -23,6 +23,7 @@
         Click Next: Review.
         Enter a name for the policy (e.g., gd_sns_policy).
         Review and click Create Policy.
+        ![](img/sns.png)
 ## Create an IAM Role for Lambda
         Open the IAM service in the AWS Management Console.
         Click Roles → Create Role.
@@ -49,6 +50,7 @@
         NBA_API_KEY: your NBA API key.
         SNS_TOPIC_ARN: the ARN of the SNS topic created earlier.
         Click Create Function.
+        ![](img/lambda.png)
 ## Set Up Automation with Eventbridge
         Navigate to the Eventbridge service in the AWS Management Console.
         Go to Rules → Create Rule.
